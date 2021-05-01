@@ -1,0 +1,97 @@
+$body-bg: #333;
+$font-color: #fff;
+$primary-color: #008ed6;
+$secondary-color: #292b2c;
+$create-section: #fff;
+
+body {
+	background: $body-bg;
+	color: $font-color;
+}
+
+.navbar {
+	border-bottom: 4px solid $primary-color;
+	background:$secondary-color;
+	opacity: 0.7;
+}
+
+#home-section {
+	    background: url(../image/mountain.jpg);
+         background-position: center top;
+	    background-repeat: no-repeat;
+         background-size: cover;
+         background-attachment: fixed;
+         min-height: 700px;
+
+	   .dark-overlay {
+		    background: rgba(0,0,0,0.5);
+		    min-height: 700px;
+	    }
+	    
+	   .fa {
+		    background: $create-section;
+		    color: $primary-color;
+		    margin-top: 4px;
+		    padding: 5px;
+		    font-size: 30px;
+		    border-radius: 5px;
+	    }
+	    
+	     .home-inner {
+		    padding-top: 150px;
+		     padding-bottom: 100px;
+	    }
+	
+	.card-portion {
+		opacity: .7;
+	}
+}   
+
+
+.explore-main-section {
+	
+		.fa { background: $body-bg;
+	         margin-top: 10px;
+		    color: $font-color;
+		    padding: 5px;
+		    font-size: 25px;
+		    border-radius: 5px;
+	}
+	    
+}
+
+
+.create-main-section {
+	
+	.fa {  
+		    background: $create-section;
+		    margin-top: 10px;
+		    color: #007BFF;
+		    padding: 5px;
+		    font-size: 25px;
+		    border-radius: 5px;
+	    }
+	
+}
+
+
+   #share-main-section{
+	   	 .fa    {background: #343a40;
+			    margin-top: 10px;
+			    color: white;
+			    padding: 5px;
+			    font-size: 25px;
+			    border-radius: 5px;
+	   }
+}
+	
+
+
+
+
+
+@media (max-width: 600px) {
+	#home-section h4 {
+		font-size: 40px;
+	}
+}
